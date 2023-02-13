@@ -1,5 +1,7 @@
+import { Title } from "@/components/Title";
+
 export default function Home() {
-  return (
-    <div>Hello world</div>
+  return (  
+    <Title tag="h1">Hello! I am H1 tag</Title>
   )
 }
