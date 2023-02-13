@@ -1,7 +1,10 @@
-import { Title } from "@/components/Title";
+import { Title } from "@/components/Title/Title";
+import { Button } from "../components/Button/Button";
 
 export default function Home() {
-  return (  
-    <Title tag="h1">Hello! I am H1 tag</Title>
+  return (<>
+      <Title tag="h1">Heading</Title>  
+      <Button appearance="secondary">Button</Button>
+    </>
   )
 }
