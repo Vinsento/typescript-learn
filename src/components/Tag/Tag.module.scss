@@ -1,0 +1,39 @@
+@import '@/styles/variables.scss';
+
+.s, .m, .l {
+  display: inline-block;
+}
+
+.s {
+  padding: 5px 10px;
+}
+
+.m {
+  padding: 7px 15px;
+}
+
+.l {
+  padding: 10px 20px;
+}
+
+.transparent,
+.pink,
+.blue {
+  border-radius: 20px;
+  border: 1px solid #aaa;
+}
+
+.pink {
+  border: 1px solid $pink;
+  color: $pink;
+}
+
+.blue {
+  border: 1px solid $blue;
+  color: $blue;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
